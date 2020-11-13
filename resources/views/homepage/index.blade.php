@@ -29,7 +29,7 @@
     <!-- Articles Demo Specific Stylesheet -->
     <link rel="stylesheet" href="{!!asset('homepage/asset/articles/articles.css')!!}" type="text/css" />
     <link rel="stylesheet" href="{!!asset('homepage/asset/articles/css/fonts.css')!!}" type="text/css" />
-
+    <script src="https://kit.fontawesome.com/bf3b9c3659.js" crossorigin="anonymous"></script>
 
     <!-- Document Title
 	============================================= -->
@@ -163,8 +163,6 @@
 
             <div class="content-wrap pb-0 clearfix">
 
-
-
                 <div class="section m-0 section-scroller" style="padding: 100px 0">
                     <div class="container center">
                         <span class="before-heading font-body">Worried about ads? Paid features?</span>
@@ -201,7 +199,8 @@
                                                             <span class="font-body" data-from="1" data-to="7"
                                                                 data-refresh-interval="10" data-speed="2000"></span>K+
                                                         </div>
-                                                        <h5 class="mt-1 text-muted mb-0 font-body ls0">Books</h5>
+                                                        <h5 class="mt-1 text-muted mb-0 font-body ls0">Solved Pr
+                                                        </h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -214,7 +213,7 @@
                                                             <span class="font-body" data-from="1" data-to="3"
                                                                 data-refresh-interval="200" data-speed="23000"></span>K+
                                                         </div>
-                                                        <h5 class="mt-1 text-muted mb-0 font-body ls0">Authors</h5>
+                                                        <h5 class="mt-1 text-muted mb-0 font-body ls0">Members</h5>
                                                     </div>
                                                 </div>
                                                 <div class="circle-inner">
@@ -234,7 +233,7 @@
                                                             <span class="font-body" data-from="1" data-to="3"
                                                                 data-refresh-interval="100" data-speed="2400"></span>K+
                                                         </div>
-                                                        <h5 class="mt-1 text-muted mb-0 font-body ls0">Members</h5>
+                                                        <h5 class="mt-1 text-muted mb-0 font-body ls0">Story</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -246,7 +245,7 @@
                                                             <span class="font-body" data-from="1" data-to="220"
                                                                 data-refresh-interval="100" data-speed="2400"></span>
                                                         </div>
-                                                        <h5 class="mt-1 text-muted mb-0 font-body ls0">Free Items</h5>
+                                                        <h5 class="mt-1 text-muted mb-0 font-body ls0">Topics</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -261,7 +260,7 @@
                 <div class="section bg-transparent">
                     <div class="container">
                         <div class="heading-block mb-4 border-bottom-0">
-                            <h2 class="font-weight-normal ls0 nott mb-0">Authors of the week</h2>
+                            <h2 class="font-weight-normal ls0 nott mb-0">Members of the week</h2>
                         </div>
                         <div class="row align-items-center">
 
@@ -269,7 +268,7 @@
                                 <img src="{!!asset('homepage/asset/articles/images/author.jpg')!!}" alt="Image">
                             </div>
 
-                            <div class="col-lg-4 col-sm-6 mt-3 mt-sm-0">
+                            <div class="col-lg-3 col-sm-6 mt-3 mt-sm-0">
                                 <div class="heading-block">
                                     <h2 class="font-weight-bold ls0 mb-0 font-body">Samuel Serif</h2>
                                     <span class="text-muted">Writer, London</span>
@@ -280,42 +279,20 @@
                                     compelling results change.</p>
                             </div>
 
-                            <div class="col-lg-5 mt-5 mt-lg-0">
-                                <h4 class="mb-0 font-weight-normal font-body">Popular Books of <a href="#">Samuel
-                                        Serif</a></h4>
-                                <div id="oc-images" class="owl-carousel image-carousel carousel-widget" data-margin="20"
-                                    data-nav="true" data-pagi="true" data-items-xs="2" data-items-sm="3"
-                                    data-items-md="3" data-items-lg="2" data-items-xl="2">
-
-                                    <div class="oc-item">
-                                        <a href="#"><img
-                                                src="{!!asset('homepage/asset/articles/images/articles/1/1.jpg')!!}"
-                                                alt="Image 1"></a>
-                                    </div>
-                                    <div class="oc-item">
-                                        <a href="#"><img
-                                                src="{!!asset('homepage/asset/articles/images/articles/1/2.jpg')!!}"
-                                                alt="Image 2"></a>
-                                    </div>
-                                    <div class="oc-item">
-                                        <a href="#"><img
-                                                src="{!!asset('homepage/asset/articles/images/articles/2/1.jpg')!!}"
-                                                alt="Image 3"></a>
-                                    </div>
-                                    <div class="oc-item">
-                                        <a href="#"><img
-                                                src="{!!asset('homepage/asset/articles/images/articles/4/1.jpg')!!}"
-                                                alt="Image 4"></a>
-                                    </div>
-                                    <div class="oc-item">
-                                        <a href="#"><img
-                                                src="{!!asset('homepage/asset/articles/images/articles/6/1.jpg')!!}"
-                                                alt="Image 5"></a>
-                                    </div>
-
-                                </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <img src="{!!asset('homepage/asset/articles/images/author.jpg')!!}" alt="Image">
                             </div>
 
+                            <div class="col-lg-3 col-sm-6 mt-3 mt-sm-0">
+                                <div class="heading-block">
+                                    <h2 class="font-weight-bold ls0 mb-0 font-body">Samuel Serif</h2>
+                                    <span class="text-muted">Writer, London</span>
+                                </div>
+                                <p class="mb-0">Progressively strategize just in time scenarios and compelling results.
+                                    Intrinsicly parallel task extensive systems whereas distinctive catalysts for
+                                    scenarios and
+                                    compelling results change.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -363,204 +340,14 @@
 		============================================= -->
         <footer id="footer" class="border-0">
 
-            <div class="container clearfix">
 
-                <!-- Footer Widgets
-				============================================= -->
-                <div class="footer-widgets-wrap row clearfix">
-
-                    <div class="col-md-4 col-sm-6">
-                        <div class="widget clearfix">
-
-                            <div class="d-flex align-items-center mb-4">
-                                <img src="{!!asset('homepage/asset/articles/images/logo-footer.png')!!}" height="40"
-                                    alt="Image">
-                                <h4 class="nott ls0 mb-0 font-body ml-2">sarjanamalam</h4>
-                            </div>
-
-                            <div class="d-flex clearfix">
-                                <div class="pr-4 pl-1">
-                                    <i class="icon-building2 h3"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <address>
-                                        <abbr title="address"><strong>Headquarters:</strong><br></abbr>
-                                        795 Folsom Ave, Suite 600<br>
-                                        San Francisco, CA 94107<br>
-                                    </address>
-                                </div>
-                            </div>
-                            <div class="d-flex clearfix">
-                                <div class="pr-4 pl-1">
-                                    <i class="icon-call h3"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <div class="bottommargin-sm">
-                                        <abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br>
-                                        <abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center clearfix">
-                                <div class="pr-4 pl-1">
-                                    <i class="icon-envelope21 h3 mb-0"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <abbr title="Email Address"><strong>Email:</strong></abbr> info@sarjanamalam.com
-                                </div>
-                            </div>
-
-                            <div class="mt-4 clearfix">
-                                <a href="#" class="social-icon si-small si-rounded si-colored si-facebook"
-                                    title="Facebook">
-                                    <i class="icon-facebook"></i>
-                                    <i class="icon-facebook"></i>
-                                </a>
-                                <a href="#" class="social-icon ml-1 si-small si-rounded si-colored si-twitter"
-                                    title="Twitter">
-                                    <i class="icon-twitter"></i>
-                                    <i class="icon-twitter"></i>
-                                </a>
-                                <a href="#" class="social-icon ml-1 si-small si-rounded si-colored si-github"
-                                    title="Github">
-                                    <i class="icon-github"></i>
-                                    <i class="icon-github"></i>
-                                </a>
-                                <a href="#" class="social-icon ml-1 si-small si-rounded si-colored si-pinterest"
-                                    title="Pinterest">
-                                    <i class="icon-pinterest"></i>
-                                    <i class="icon-pinterest"></i>
-                                </a>
-                                <a href="#" class="social-icon ml-1 si-small si-rounded si-colored si-forrst"
-                                    title="Forrst">
-                                    <i class="icon-forrst"></i>
-                                    <i class="icon-forrst"></i>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6  mt-5 mt-sm-0">
-                        <div class="widget widget_links clearfix">
-
-                            <div class="line mb-5 mt-2 d-block d-sm-none"></div>
-
-                            <h4 class="font-body font-weight-bold ls0">Popular Authors</h4>
-
-                            <div class="posts-sm row col-mb-30" id="post-list-footer">
-                                <div class="entry col-12">
-                                    <div class="grid-inner row align-items-center no-gutters">
-                                        <div class="col-auto">
-                                            <div class="entry-image">
-                                                <a href="#"><img
-                                                        src="{!!asset('homepage/asset/articles/images/authors/1.jpg')!!}"
-                                                        alt="Author"></a>
-                                            </div>
-                                        </div>
-                                        <div class="col pl-3">
-                                            <div class="entry-title">
-                                                <h4 class="font-body"><a href="#">Nathaneal Down</a></h4>
-                                                <small>Published 2,615 Books</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="entry col-12">
-                                    <div class="grid-inner row align-items-center no-gutters">
-                                        <div class="col-auto">
-                                            <div class="entry-image">
-                                                <a href="#"><img
-                                                        src="{!!asset('homepage/asset/articles/images/authors/2.jpg')!!}"
-                                                        alt="Author"></a>
-                                            </div>
-                                        </div>
-                                        <div class="col pl-3">
-                                            <div class="entry-title">
-                                                <h4 class="font-body"><a href="#">Bailey Wonger</a></h4>
-                                                <small>Published 2,174 Books</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="entry col-12">
-                                    <div class="grid-inner row align-items-center no-gutters">
-                                        <div class="col-auto">
-                                            <div class="entry-image">
-                                                <a href="#"><img
-                                                        src="{!!asset('homepage/asset/articles/images/authors/3.jpg')!!}"
-                                                        alt="Author"></a>
-                                            </div>
-                                        </div>
-                                        <div class="col pl-3">
-                                            <div class="entry-title">
-                                                <h4 class="font-body"><a href="#">Hanson Deck</a></h4>
-                                                <small>Published 1,187 Books</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 mt-5 mt-md-0">
-
-                        <div id="q-contact" class="widget quick-contact-widget form-widget clearfix">
-
-                            <div class="line mb-5 mt-2 d-block d-md-none"></div>
-
-                            <h4 class="highlight-me font-body font-weight-bold ls0">Contact Us</h4>
-                            <div class="form-result"></div>
-                            <form id="quick-contact-form" name="quick-contact-form" action="include/form.php"
-                                method="post" class="quick-contact-form mb-0">
-                                <div class="form-process">
-                                    <div class="css3-spinner">
-                                        <div class="css3-spinner-scaler"></div>
-                                    </div>
-                                </div>
-
-                                <input type="text"
-                                    class="required sm-form-control border-form-control input-block-level"
-                                    id="quick-contact-form-name" name="quick-contact-form-name" value=""
-                                    placeholder="Full Name" />
-                                <input type="text"
-                                    class="required sm-form-control border-form-control email input-block-level"
-                                    id="quick-contact-form-email" name="quick-contact-form-email" value=""
-                                    placeholder="Email Address" />
-                                <textarea
-                                    class="required sm-form-control border-form-control input-block-level short-textarea"
-                                    id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30"
-                                    placeholder="Message"></textarea>
-                                <input type="text" class="d-none" id="quick-contact-form-botcheck"
-                                    name="quick-contact-form-botcheck" value="" />
-                                <input type="hidden" name="prefix" value="quick-contact-form-">
-                                <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit"
-                                    class="button button-small button-black nott ls0 mt-3 ml-0" value="submit">Send
-                                    Email</button>
-                            </form>
-
-                        </div>
-                    </div>
-
-                </div><!-- .footer-widgets-wrap end -->
-
-            </div>
-
-            <div class="line m-0"></div>
-
-            <!-- Copyrights
-			============================================= -->
             <div id="copyrights">
 
                 <div class="container clearfix">
 
                     <div class="row align-items-center">
                         <div class="col-sm-6">
-                            Copyrights &copy; 2020 All Rights Reserved by sarjanamalam Inc.
+                            Copyrights &copy; 2020 All Rights Reserved by Sarjanamalam Inc.
                         </div>
 
                         <div class="col-sm-6 mt-4 mt-sm-0">
@@ -575,35 +362,11 @@
                                     <i class="icon-twitter"></i>
                                 </a>
 
-                                <a href="#" class="social-icon si-small si-borderless si-gplus">
-                                    <i class="icon-gplus"></i>
-                                    <i class="icon-gplus"></i>
-                                </a>
-
                                 <a href="#" class="social-icon si-small si-borderless si-pinterest">
                                     <i class="icon-pinterest"></i>
                                     <i class="icon-pinterest"></i>
                                 </a>
 
-                                <a href="#" class="social-icon si-small si-borderless si-vimeo">
-                                    <i class="icon-vimeo"></i>
-                                    <i class="icon-vimeo"></i>
-                                </a>
-
-                                <a href="#" class="social-icon si-small si-borderless si-github">
-                                    <i class="icon-github"></i>
-                                    <i class="icon-github"></i>
-                                </a>
-
-                                <a href="#" class="social-icon si-small si-borderless si-yahoo">
-                                    <i class="icon-yahoo"></i>
-                                    <i class="icon-yahoo"></i>
-                                </a>
-
-                                <a href="#" class="social-icon si-small si-borderless si-linkedin">
-                                    <i class="icon-linkedin"></i>
-                                    <i class="icon-linkedin"></i>
-                                </a>
                             </div>
                         </div>
                     </div>

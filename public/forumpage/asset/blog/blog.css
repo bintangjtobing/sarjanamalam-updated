@@ -5,7 +5,7 @@
 
 /* change your menu color here */
 :root {
-	--themecolor: #F39887;
+	--themecolor: #1f8bc4;
 	--themecolorrgba: 243, 152, 135;
 	--font-serif:  'Domine', serif;
 	--font-sans:  'Roboto', sans-serif;
@@ -141,7 +141,7 @@ body.dark,
 	margin-bottom: 10px;
 }
 
-.dark .entry-categories a { color: var(--themecolor, #F39887); }
+.dark .entry-categories a { color: var(--themecolor, #1f8bc4); }
 
 .entry-meta {
 	display: block;
@@ -591,8 +591,8 @@ a.more-link i {
 
 .widget-nav .nav .nav-item.active .nav-link,
 .widget-nav .nav .nav-item:hover .nav-link {
-	border-left-color: var(--themecolor, #F39887);
-	color: var(--themecolor, #F39887);
+	border-left-color: var(--themecolor, #1f8bc4);
+	color: var(--themecolor, #1f8bc4);
 }
 
 .dark .form-control:not(.not-dark), .dark .sm-form-control:not(.not-dark) {

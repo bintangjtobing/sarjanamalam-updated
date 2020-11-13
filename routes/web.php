@@ -13,6 +13,6 @@
 
 Route::get('/', 'HomepageController@index');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/forum', 'HomepageController@forum');
+Route::get('/new-post', 'HomepageController@newpost');

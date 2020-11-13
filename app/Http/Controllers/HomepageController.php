@@ -16,4 +16,12 @@ class HomepageController extends Controller
     {
         return view('homepage.index');
     }
+    public function forum()
+    {
+        return view('forumpage.index');
+    }
+    public function newpost()
+    {
+        return view('forumpage.newpost');
+    }
 }
